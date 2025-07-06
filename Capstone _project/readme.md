@@ -1,11 +1,11 @@
-# 🚗 Dynamic Pricing for Urban Parking Lots
+#  Dynamic Pricing for Urban Parking Lots
 
 **Capstone Project | Summer Analytics 2025  
 Consulting & Analytics Club – IIT Guwahati**
 
 ---
 
-## 📌 Abstract
+##  Abstract
 
 This project presents a real-time, data-driven pricing engine for 14 urban parking lots. The pricing models were developed using only Python, Pandas, and Numpy — simulating smart, demand-based pricing decisions without using any external machine learning libraries.
 
@@ -13,7 +13,7 @@ The solution dynamically adjusts parking fees based on features such as occupanc
 
 ---
 
-## 🧠 Problem Statement
+##  Problem Statement
 
 Urban parking spaces are limited and often mispriced. Static pricing fails to reflect real-time demand, resulting in:
 - Overcrowded lots with no incentive to divert traffic
@@ -26,7 +26,7 @@ The goal is to build **dynamic pricing models** that:
 
 ---
 
-## 📊 Dataset Overview
+##  Dataset Overview
 
 - **Time span:** 73 days  
 - **Time frequency:** Every 30 minutes (8:00 AM to 4:30 PM)  
@@ -40,9 +40,9 @@ The goal is to build **dynamic pricing models** that:
 
 ---
 
-## 🧪 Methodology
+##  Methodology
 
-### ✅ Model 1: Baseline Linear Model
+###  Model 1: Baseline Linear Model
 
 **Formula:**  
 \[
@@ -55,7 +55,7 @@ Price_{t+1} = Price_t + \alpha \cdot \left( \frac{Occupancy}{Capacity} \right)
 
 ---
 
-### ✅ Model 2: Demand-Based Pricing
+###  Model 2: Demand-Based Pricing
 
 **Demand Function:**  
 \[
@@ -73,7 +73,7 @@ Price = BasePrice \cdot (1 + \lambda \cdot \text{Normalized Demand})
 
 ---
 
-## 📉 Visual Results
+## Visual Results
 
 We used `matplotlib` to generate:
 - Time series plots of pricing for each model
@@ -84,18 +84,18 @@ We used `matplotlib` to generate:
 
 ---
 
-## 💻 How to Run
+## How to Run
 
 1. Clone the repository or upload the notebook to Google Colab.
 2. Upload the dataset file: `dataset.csv`.
 3. Run the notebook from top to bottom.
 4. Visualizations and results will appear at the end.
 
-> 🛠️ No external ML libraries required — pure `pandas`, `numpy`, `matplotlib`.
+>  No external ML libraries required — pure `pandas`, `numpy`, `matplotlib`.
 
 ---
 
-## 🎓 Key Learnings
+##  Key Learnings
 
 - Feature engineering for real-time demand prediction  
 - Simulating time-series pricing behavior  
@@ -105,14 +105,10 @@ We used `matplotlib` to generate:
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 **Radha Krishna**  
 Capstone Participant, Summer Analytics 2025  
 Aspiring AI & Data Science Engineer | Passionate about ML for real-world impact
 
----
 
-## 📄 License
-
-MIT License – feel free to use or modify with attribution.
