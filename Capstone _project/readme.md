@@ -80,7 +80,6 @@ We used `matplotlib` to generate:
 - Comparative graphs for Model 1 vs. Model 2
 - Observed smoother, more realistic pricing in Model 2
 
-> 🔧 *Optional Enhancements:* Add Bokeh or Plotly for interactive visualization.
 
 ---
 
